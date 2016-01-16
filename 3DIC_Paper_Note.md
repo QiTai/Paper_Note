@@ -22,11 +22,11 @@
 	* Temperature has a direct effect on the amount of leakage power.
 	* The static or leakage power is a funciton of temperature, and traditionally described by Equation1 in the simplified BSIM4 model.
 	
-		![BSIM4](/img/LightSim/BSIM4.png)
+		![BSIM4](/img/LightSim/BSIM4.PNG) *Mind that: here .png will not show up*
 
 	* P_leak has a complex dependence on temperature, and is exponentially dependent on temperature for high values(>500mV) of the threshold voltage. In modern processors, the threshold voltages and temperature becomes approximately linear. *Has been used to speed up thermal simulator[[9]](http://ecee.colorado.edu/~shangl/papers/liu07mar.pdf) and dynamic thermal management[5,6]*
 	
-		![Leakage model](/img/LightSim/Leakage_Models.png)
+		![Leakage model](/img/LightSim/Leakage_Models.PNG)
 
 	* This heat spread function(f_sp) is also known as the Green's function of the system at the center of the die.
 	* use zero order Hankel transform to reduce the 2D problem to a 1D problem. A zero order Hankel transform is equivalent to 2D Fourier transforms of radially symmetric functions in polar coordinates.
@@ -40,7 +40,7 @@
 	* online part : C
 
 + Result Comparison
- 	![Result Comparison](/img/LightSim/Speed.png)
+ 	![Result Comparison](/img/LightSim/Speed.PNG)
 
 + Que
 	* Hankel transform
