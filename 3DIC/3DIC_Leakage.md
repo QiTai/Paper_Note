@@ -27,7 +27,7 @@
 
 	* P_leak has a complex dependence on temperature, and is exponentially dependent on temperature for high values(>500mV) of the threshold voltage. In modern processors, the threshold voltages and temperature becomes approximately linear. *Has been used to speed up thermal simulator[[9]](http://ecee.colorado.edu/~shangl/papers/liu07mar.pdf) and dynamic thermal management[5,6]*
 	
-		![Leakage model](/img/LightSim/Leakage_Models.PNG)
+		![Leakage model](/img/3DIC/LightSim/Leakage_Models.PNG)
 
 	* This heat spread function(f_sp) is also known as the Green's function of the system at the center of the die.
 	* use zero order Hankel transform to reduce the 2D problem to a 1D problem. A zero order Hankel transform is equivalent to 2D Fourier transforms of radially symmetric functions in polar coordinates.
@@ -42,7 +42,7 @@
 
 + Result Comparison
 
-    ![Result Comparison](/img/LightSim/Speed.PNG)
+    ![Result Comparison](/img/3DIC/LightSim/Speed.PNG)
 
 + Que
 	* Hankel transform
