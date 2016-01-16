@@ -22,7 +22,8 @@
 	* Temperature has a direct effect on the amount of leakage power.
 	* The static or leakage power is a funciton of temperature, and traditionally described by Equation1 in the simplified BSIM4 model.
 	
-		![BSIM4](/img/LightSim/BSIM4.PNG) *Mind that: here .png will not show up*
+		![BSIM4](/img/LightSim/BSIM4.PNG)
+	> *Mind that: here .png will not show up*
 
 	* P_leak has a complex dependence on temperature, and is exponentially dependent on temperature for high values(>500mV) of the threshold voltage. In modern processors, the threshold voltages and temperature becomes approximately linear. *Has been used to speed up thermal simulator[[9]](http://ecee.colorado.edu/~shangl/papers/liu07mar.pdf) and dynamic thermal management[5,6]*
 	
@@ -40,7 +41,8 @@
 	* online part : C
 
 + Result Comparison
- 	![Result Comparison](/img/LightSim/Speed.PNG)
+
+    ![Result Comparison](/img/LightSim/Speed.PNG)
 
 + Que
 	* Hankel transform
