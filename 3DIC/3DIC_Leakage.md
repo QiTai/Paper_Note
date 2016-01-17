@@ -1,11 +1,15 @@
 ##leakage##
 
-####LightSim : A leakage Aware Ultrafast Temperature Simulator####
+####LightSim : A leakage Aware Ultrafast Temperature Simulator *2014ASPDAC* ####
+	
+> Also Refer to [Slides](http://www.aspdac.com/aspdac2014/technical_program/pdf/9C-3.pdf)
 
 + Idea
 	* LightSim : An ultra-fast temperature simulator  *perform both staedy and transient thermal analysis*
 	* Hankel transform to derive a transient version of the Green's function ---**takes into account the feedback loop between temperature and leakage**---convolve the Green's fucntion with the power map
 	* The crux of the author is to create a transient version of the Green's function (impulse response of a point power source) that takes the leakage feedback loop into account + standard method --- convoles the Green's fucntion with the power profile.
+	* For 2D chip
+	* Use Hankel transform to simplify a 2-D problem into a 1-D problem, reducing its complexity and running time.
 
 + Deficiency
 	* the leakage at the rim of the chip are not derived rigorously, and use empirical factors.
@@ -44,8 +48,61 @@
 
     ![Result Comparison](/img/3DIC/LightSim/Speed.PNG)
 
-+ Que
++ Further Reading
 	* Hankel transform
 	* Green Function 
+	* 2D Leakage related paper
+	* [Green's function for thermal simulation[18]](http://www.ee.umn.edu/users/sachin/conf/iccad05yz.pdf)
 
 
+####A Fast Leakage Aware 3D Thermal Simulator *2015 DAC to be published* ####
+
++ Idea
+	* propose two 3D temperature simulations, 3DSimF and 3DSim 
+	* quite like the former LightSim paper, just extends it to 3DIC
+	* Prerequisite: over the operating temperature range of real ICs, leakage may be assumed to be linearly dependent on temperature, as was shown experimentally in [[9]](http://ecee.colorado.edu/~shangl/papers/liu07mar.pdf)[[14]](http://www.cse.iitd.ac.in/~srsarangi/files/papers/lightsim.pdf)
+	* main concern : speed -- an alg. which is fast and can be employed by designers to predict thermal performance before the detailed layout is available.
+	* considering leakage, but avoid running mulriple iterations to determine the temperature profile including the effects of leakage.
+	* [[14]](http://www.cse.iitd.ac.in/~srsarangi/files/papers/lightsim.pdf) is the only work that provides a closed form solution for incorporating leakage (albeit for 2-D chips). We extend this method to 3-D chips having multiple layers, and model the effects of cross layer leakage power.
++ Past Methodology on model temperature	
+	* For 2D chip: 
+		+ Fast Methodology Refer to [[14]](http://www.cse.iitd.ac.in/~srsarangi/files/papers/lightsim.pdf)[[5]](Differentiating the roles of ir measurement and simulation for power and temperature-aware design)
+		+ 3-D Thermal-ADI[[16]](http://robertdick.org/talp/papers/wang-thermal-adi.pdf)
+		+ Hotspot[[4]](http://www.cs.virginia.edu/~skadron/Papers/hotspot_tvlsi06.pdf)
+		+ Green's Function [[19]](http://www.ee.umn.edu/users/sachin/conf/iccad05yz.pdf) [[22]](http://pan.baidu.com/s/1mh05vXe)[[14]](http://www.cse.iitd.ac.in/~srsarangi/files/papers/lightsim.pdf)
+	* For 3D chip: (limited!)
+		+ HS3D[[6]](https://www.ece.ucsb.edu/~yuanxie/Papers/ISQED06-3D.pdf)
+		+ 3D-ICE[[15]](http://esl.epfl.ch/files/content/sites/esl/files/3dice/3D-ICE_ICCAD2010.pdf)
+		+ [[13]](Thermal simulator of 3d-ic with modeling of anisotropic tsv conductance and microchannel entrance effects)[[13]slides](http://www.aspdac.com/aspdac2013/archive/pdf/6B-1.pdf)
+		
++ Note
+	* In 45nm tech and beyond, an estimated 30-50% of the total power is due to leakage[1]
+	* Green's Function--The impulse response of a unit point power source(the Dirac Delta function)
+	* Hankel Transform--The 2D Fourier transform of a radially symmetric function is equivalent to a zero order 1-D Hankel transform.
+	* Full chip model of the 3-D chip
+	
+	![Full_Chip_Model](/img/3DIC/Fast_Leakage_Aware_3D_Thermal_Simulator/Full_Chip_Model.PNG)
+
+	* The temperature rise in a layer is affected by 3 factos:
+		+ Dynamic Power 
+		+ Leakage Power sources created in that layer 
+		+ Leakage Power sources created in other layers 
+	* 3D Leakage Aware Heat Spreading Function
+
++ Implementation Detail
+	* Modeling of the 3D Chip
+		+ Use Ansys Icepak for modeling the chip for thermal simulations
+		+ Use R to implement computing leakage aware Green's fucntions using Hankel transform(3DSim)
+		+ Use matlab for 3DSimF 
+		+ Matlab is known to be faster than R implementation[17,10]
+
++ Result Comparison
+
+	![Result_Comparison](/img/3DIC/Fast_Leakage_Aware_3D_Thermal_Simulator/Result_Comparison.PNG)
+
++ Further Reading
+	* 3D-ICE[[15]](http://esl.epfl.ch/files/content/sites/esl/files/3dice/3D-ICE_ICCAD2010.pdf)
+	* [[22]](http://pan.baidu.com/s/1mh05vXe)
+	* [[19]](http://www.ee.umn.edu/users/sachin/conf/iccad05yz.pdf)
+	* [[5]](Differentiating the roles of ir measurement and simulation for power and temperature-aware design)
+	
