@@ -73,7 +73,7 @@
 	* For 3D chip: (limited!)
 		+ HS3D[[6]](https://www.ece.ucsb.edu/~yuanxie/Papers/ISQED06-3D.pdf)
 		+ 3D-ICE[[15]](http://esl.epfl.ch/files/content/sites/esl/files/3dice/3D-ICE_ICCAD2010.pdf)
-		+ [[13]](Thermal simulator of 3d-ic with modeling of anisotropic tsv conductance and microchannel entrance effects)[[13]slides](http://www.aspdac.com/aspdac2013/archive/pdf/6B-1.pdf)
+		+ [[13]](http://pan.baidu.com/s/1PChmY)[[13]slides](http://www.aspdac.com/aspdac2013/archive/pdf/6B-1.pdf)
 		
 + Note
 	* In 45nm tech and beyond, an estimated 30-50% of the total power is due to leakage[1]
