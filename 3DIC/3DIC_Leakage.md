@@ -66,14 +66,14 @@
 	* [[14]](http://www.cse.iitd.ac.in/~srsarangi/files/papers/lightsim.pdf) is the only work that provides a closed form solution for incorporating leakage (albeit for 2-D chips). We extend this method to 3-D chips having multiple layers, and model the effects of cross layer leakage power.
 + Past Methodology on model temperature	
 	* For 2D chip: 
-		+ Fast Methodology Refer to [[14]](http://www.cse.iitd.ac.in/~srsarangi/files/papers/lightsim.pdf)[[5]](http://pan.baidu.com/s/1PChmY)
+		+ Fast Methodology Refer to [[14]](http://www.cse.iitd.ac.in/~srsarangi/files/papers/lightsim.pdf)[[5]Differentiating the roles of ir measurement and simulation for power and temperature-aware design_2009ISPASS](http://pan.baidu.com/s/1PChmY)
 		+ 3-D Thermal-ADI[[16]](http://robertdick.org/talp/papers/wang-thermal-adi.pdf)
 		+ Hotspot[[4]](http://www.cs.virginia.edu/~skadron/Papers/hotspot_tvlsi06.pdf)
-		+ Green's Function [[19]](http://www.ee.umn.edu/users/sachin/conf/iccad05yz.pdf) [[22]](http://pan.baidu.com/s/1mh05vXe)[[14]](http://www.cse.iitd.ac.in/~srsarangi/files/papers/lightsim.pdf)
+		+ Green's Function [[19]](http://www.ee.umn.edu/users/sachin/conf/iccad05yz.pdf) [[22]Power Blurring: Fast Static and Transient Thermal Analysis Method for Packaged Integrated Circuits and Power Devices_2014TVLSI](http://pan.baidu.com/s/1mh05vXe)[[14]](http://www.cse.iitd.ac.in/~srsarangi/files/papers/lightsim.pdf)
 	* For 3D chip: (limited!)
 		+ HS3D[[6]](https://www.ece.ucsb.edu/~yuanxie/Papers/ISQED06-3D.pdf)
 		+ 3D-ICE[[15]](http://esl.epfl.ch/files/content/sites/esl/files/3dice/3D-ICE_ICCAD2010.pdf)
-		+ [[13]](http://pan.baidu.com/s/1PChmY)[[13]slides](http://www.aspdac.com/aspdac2013/archive/pdf/6B-1.pdf)
+		+ [[13]Thermal Simulator of 3d-ic with modeling of anisotropic tsv conductance and microchannel entracnce effects_2013ASPDAC](http://pan.baidu.com/s/1PChmY)[[13]slides](http://www.aspdac.com/aspdac2013/archive/pdf/6B-1.pdf)
 		
 + Note
 	* In 45nm tech and beyond, an estimated 30-50% of the total power is due to leakage[1]
@@ -102,7 +102,7 @@
 
 + Further Reading
 	* 3D-ICE[[15]](http://esl.epfl.ch/files/content/sites/esl/files/3dice/3D-ICE_ICCAD2010.pdf)
-	* [[22]](http://pan.baidu.com/s/1mh05vXe)
+	* [[22]Power Blurring: Fast Static and Transient Thermal Analysis Method for Packaged Integrated Circuits and Power Devices_2014TVLSI](http://pan.baidu.com/s/1mh05vXe)
 	* [[19]](http://www.ee.umn.edu/users/sachin/conf/iccad05yz.pdf)
 	* [[5]](Differentiating the roles of ir measurement and simulation for power and temperature-aware design)
 	
