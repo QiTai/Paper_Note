@@ -81,7 +81,7 @@
 	* Hankel Transform--The 2D Fourier transform of a radially symmetric function is equivalent to a zero order 1-D Hankel transform.
 	* Full chip model of the 3-D chip
 	
-	![Full_Chip_Model](/img/3DIC/Fast_Leakage_Aware_3D_Thermal_Simulator/Full_Chip_Model.PNG)
+	![Full_Chip_Model](/img/3DIC/Fast_Leakage_Aware_3DIC_Thermal_Simulator/Full_Chip_Model.PNG)
 
 	* The temperature rise in a layer is affected by 3 factos:
 		+ Dynamic Power 
@@ -98,7 +98,7 @@
 
 + Result Comparison
 
-	![Result_Comparison](/img/3DIC/Fast_Leakage_Aware_3D_Thermal_Simulator/Result_Comparison.PNG)
+	![Result_Comparison](/img/3DIC/Fast_Leakage_Aware_3DIC_Thermal_Simulator/Result_Comparison.PNG)
 
 + Further Reading
 	* 3D-ICE[[15]](http://esl.epfl.ch/files/content/sites/esl/files/3dice/3D-ICE_ICCAD2010.pdf)
