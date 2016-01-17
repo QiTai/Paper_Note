@@ -55,7 +55,7 @@
 	* [Green's function for thermal simulation[18]](http://www.ee.umn.edu/users/sachin/conf/iccad05yz.pdf)
 
 
-####A Fast Leakage Aware 3D Thermal Simulator *2015 DAC to be published* ####
+####A Fast Leakage Aware 3D Thermal Simulator ####
 
 + Idea
 	* propose two 3D temperature simulations, 3DSimF and 3DSim 
