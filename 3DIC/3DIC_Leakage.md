@@ -66,7 +66,7 @@
 	* [[14]](http://www.cse.iitd.ac.in/~srsarangi/files/papers/lightsim.pdf) is the only work that provides a closed form solution for incorporating leakage (albeit for 2-D chips). We extend this method to 3-D chips having multiple layers, and model the effects of cross layer leakage power.
 + Past Methodology on model temperature	
 	* For 2D chip: 
-		+ Fast Methodology Refer to [[14]](http://www.cse.iitd.ac.in/~srsarangi/files/papers/lightsim.pdf)[[5]](Differentiating the roles of ir measurement and simulation for power and temperature-aware design)
+		+ Fast Methodology Refer to [[14]](http://www.cse.iitd.ac.in/~srsarangi/files/papers/lightsim.pdf)[[5]](http://pan.baidu.com/s/1PChmY)
 		+ 3-D Thermal-ADI[[16]](http://robertdick.org/talp/papers/wang-thermal-adi.pdf)
 		+ Hotspot[[4]](http://www.cs.virginia.edu/~skadron/Papers/hotspot_tvlsi06.pdf)
 		+ Green's Function [[19]](http://www.ee.umn.edu/users/sachin/conf/iccad05yz.pdf) [[22]](http://pan.baidu.com/s/1mh05vXe)[[14]](http://www.cse.iitd.ac.in/~srsarangi/files/papers/lightsim.pdf)
