@@ -103,6 +103,6 @@
 + Further Reading
 	* 3D-ICE[[15]](http://esl.epfl.ch/files/content/sites/esl/files/3dice/3D-ICE_ICCAD2010.pdf)
 	* [[22]](http://pan.baidu.com/s/1mh05vXe) *Power Blurring: Fast Static and Transient Thermal Analysis Method for Packaged Integrated Circuits and Power Devices_2014TVLSI*
-	* [[19]](http://www.ee.umn.edu/users/sachin/conf/iccad05yz.pdf)
-	* [[5]](Differentiating the roles of ir measurement and simulation for power and temperature-aware design)
+	* [Also Green's Function[19]](http://www.ee.umn.edu/users/sachin/conf/iccad05yz.pdf)
+	* [5]*Differentiating the roles of ir measurement and simulation for power and temperature-aware design*
 	
