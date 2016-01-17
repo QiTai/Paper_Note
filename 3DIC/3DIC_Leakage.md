@@ -4,7 +4,7 @@
 
 + Idea
 	* LightSim : An ultra-fast temperature simulator  *perform both staedy and transient thermal analysis*
-	* Hankel transform to derive a transient version of the Green's function ---**takes into account the feedback loop between temperature and leakage**---convolve the Green's fucntion with the power map???
+	* Hankel transform to derive a transient version of the Green's function ---**takes into account the feedback loop between temperature and leakage**---convolve the Green's fucntion with the power map
 	* The crux of the author is to create a transient version of the Green's function (impulse response of a point power source) that takes the leakage feedback loop into account + standard method --- convoles the Green's fucntion with the power profile.
 
 + Deficiency
