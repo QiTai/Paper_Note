@@ -144,7 +144,7 @@
 + Further Reading
 	* [23]*Fast thermal analysis of vertically integrated circuits (3D ICs) using powre blurring methods*  [24]*fast thermal simulations of vertically integrated circuits (3d ics) including thermal vias*-- PB is applicable for vertically 3-D ICs including thermal vias.
 + Que
-	* How does the author get the Green's function: by FEA method??? 
+	* How does the FEA give the Green's Function???
 
 
 
