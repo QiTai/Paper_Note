@@ -108,12 +108,13 @@
 
 ## Thermal ##
 
-####Power Blurring: Fast Static and Transient Thermal Analysis Method for Packaged Integrated Circuits and Power Devices  *2014TVLSI* ####
+####Power Blurring: Fast Static and Transient Thermal Analysis Method for *Packaged* Integrated Circuits and Power Devices  *2014TVLSI* ####
 
 + Idea
 	* Power Blurring
 		+ matric convolution in analogy with image blurring
 		+ applicable to both static and transient thermal simulation
+		+ realistic package models **pyramid**
 		
 + Deficiency
 + Past Methodology on model temperature
@@ -123,6 +124,10 @@
 	
 	
 + Note
+	* Temperature profiles from an initial power distribution can  be used as an input parameter to recalculate the power dissipation in individual devices, which in turn can be used to calculate a refined power dissipation profile and temperature distribution. This porcess can be repeated until no more refinement is observed. Such iterative solutions are particularly important in deep submicrometer devices, in which the **leakage power** or the subthreshold characteristics are a strong function of the local temperature.
+
+	* heat diffusion equations
+	![Heat_Diffusion_Equ](/img/3DIC/PowerBlurring/Heat_Diffusion_Equ.PNG)
 	* real geometry of the heat spreader is reversed pyramid structure
 	* Error Reduction Step:
 		+ Method of Images
