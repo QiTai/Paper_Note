@@ -126,8 +126,10 @@
 	* real geometry of the heat spreader is reversed pyramid structure
 	* Error Reduction Step:
 		+ Method of Images
+			
 			> direct convolution wiht method of image(DCMI)
 		+ Intrinsic Error Compensation 
+			
 			> 由于之前的DCMI方法是假设四周和底部绝缘，但是没有考虑到真实的结构是金字塔形的，散热层要更大，所以这里要通过方法来弥补这个误差
 	* Transient Thermal Simulation ??
 	* [HotSpot Thermal Simulator](http://lava.cs.virginia.edu/HotSpot/index.htm)
