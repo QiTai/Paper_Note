@@ -105,4 +105,48 @@
 	* [[22]](http://pan.baidu.com/s/1mh05vXe) *Power Blurring: Fast Static and Transient Thermal Analysis Method for Packaged Integrated Circuits and Power Devices_2014TVLSI*
 	* [Also Green's Function[19]](http://www.ee.umn.edu/users/sachin/conf/iccad05yz.pdf)
 	* [5]*Differentiating the roles of ir measurement and simulation for power and temperature-aware design*
+
+## Thermal ##
+
+####Power Blurring: Fast Static and Transient Thermal Analysis Method for Packaged Integrated Circuits and Power Devices  *2014TVLSI* ####
+
++ Idea
+	* Power Blurring
+		+ matric convolution in analogy with image blurring
+		+ applicable to both static and transient thermal simulation
+		
++ Deficiency
++ Past Methodology on model temperature
+	* FEA (ANSYS)
+	* ISAC 
+	* HotSpot
 	
+	
++ Note
+	* real geometry of the heat spreader is reversed pyramid structure
+	* Error Reduction Step:
+		+ Method of Images ??
+		+ Intrinsic Error Compensation ??
+	* Transient Thermal Simulation ??
+	* [HotSpot Thermal Simulator](http://lava.cs.virginia.edu/HotSpot/index.htm)
+		+ two modes: 1) the block model mode 2)the grid model mode
+	* In this paper, PB relies on two FEA simulations: 
+		+ giving the unit impulse response at the center of the chip 
+		+ the additional correction factor from the uniform power dissipation profile.
+		+ Both are offline.
+
++ Implementation Detail
+	
+
++ Result Comparison
+
+
++ Further Reading
+	* [23]*Fast thermal analysis of vertically integrated circuits (3D ICs) using powre blurring methods*  [24]*fast thermal simulations of vertically integrated circuits (3d ics) including thermal vias*-- PB is applicable for vertically 3-D ICs including thermal vias.
++ Que
+	* How does the author get the Green's function: by FEA method??? 
+
+
+
+
+
