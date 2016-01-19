@@ -194,6 +194,30 @@
 	
 		> The analytical forms of the Green's Function are derived!
 + Que
+
+
+## 3D-ICE: Fast Compact Transient Thermal Modeling for 3D ICs with Inter-tier Liquid Cooling *2010ICCAD* ##
++ Idea
+	
+		
++ Deficiency
+
++ Past Methodology on model temperature
+	* A steady state thermal model for integrated microchannel cooling in 3D ICs was [15]*Thermal modeling for 3D-ICs with integrated microchannel cooling*
+	
++ Note
+	* Conventional compact modeling of solids
+	* Compact modeling of fluids
+	* compact model for microchannels
+	
++ Implementation Detail
+	
++ Result Comparison
+
++ Further Reading
+	
++ Que
+
 	
 
 
