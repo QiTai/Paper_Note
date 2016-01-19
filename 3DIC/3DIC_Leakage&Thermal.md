@@ -43,6 +43,7 @@
 + Implementation Detail
 	* offline part : R; HotSpot tool to compute three different Green's function(center, edge, corner)
 	* online part : C
+	* Use Hotspot tool to compute three different Green's function(center, edge, corner)
 
 + Result Comparison
 
@@ -154,8 +155,47 @@
 	* [23]*Fast thermal analysis of vertically integrated circuits (3D ICs) using powre blurring methods*  [24]*fast thermal simulations of vertically integrated circuits (3d ics) including thermal vias*-- PB is applicable for vertically 3-D ICs including thermal vias.
 + Que
 	* How does the FEA give the Green's Function???
+	* The transition between heat diffusion equation and Green's Function way.
+
+## A High Efficiency Full-Chip Thermal Simulation Algorithm　*2005ICCAD*##
+
++ Idea
+	* Green Function Method 
+	* the discrete cosine transform(DCT)
+	* the frequency domain computation
+		
++ Deficiency
+
++ Past Methodology on model temperature
+	* FEM
+	* BEM--Boundary Element Method (Using Green Function)
+	
++ Note
+	
+	![Simplified Model](/img/3DIC/High_Efficiency_Full_Chip_Thermal_Simulation_Alg/Simplified_Model.PNG)
+	
+	* steady state temperature distribution inside the chip are governed by Poisson's equation
+	
+	![Poisson Equ](/img/3DIC/High_Efficiency_Full_Chip_Thermal_Simulation_Alg/Poisson_Equ.PNG)
+
+	* boundary condition : refer to the paper
+	* Green Function's Definition:
+	
+	![Green Function](/img/3DIC/High_Efficiency_Full_Chip_Thermal_Simulation_Alg/Green_Function.PNG)
+	
+
++ Implementation Detail
+	
+
++ Result Comparison
 
 
-
++ Further Reading
+	* [4]*An Efficient Method for Hot-Spot Identification in ULSI Circuits*[[5]](http://www1.ece.uic.edu/MURI-RF/Publications/Mazumder_Vancouver_2004.pdf)
+	
+		> The analytical forms of the Green's Function are derived!
+	*
++ Que
+	
 
 
