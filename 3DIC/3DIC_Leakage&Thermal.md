@@ -189,12 +189,10 @@
 
 + Result Comparison
 
-
 + Further Reading
 	* [4]*An Efficient Method for Hot-Spot Identification in ULSI Circuits*[[5]](http://www1.ece.uic.edu/MURI-RF/Publications/Mazumder_Vancouver_2004.pdf)
 	
 		> The analytical forms of the Green's Function are derived!
-	*
 + Que
 	
 
